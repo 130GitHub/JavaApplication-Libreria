@@ -23,6 +23,7 @@ public class Autor implements Serializable {
     Long id;
     @Basic String nombre;
     Boolean alta;
+    String atributoDePrueba;
 
     public Autor() {
     }
